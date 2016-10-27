@@ -6,11 +6,11 @@
   "keywords": ["php", "TDD", "kata"],
   "homepage": "https://github.com/aperezg/php-skeleton-kata",
   "require-dev" : {
-    "phpunit/phpunit": "~3.7"
+    "phpunit/phpunit": "5.7.*@dev"
   },
   "autoload": {
-    "psr-0": {
-      "Kata": "src/"
+    "psr-4": {
+      "Kata\\": "src/Kata/"
     }
   },
   "authors": [

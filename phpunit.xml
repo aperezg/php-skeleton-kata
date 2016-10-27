@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap = "vendor/autoload.php">
-    <testsuites>
-        <testsuite name="Kata Test Suite">
-            <directory>./src/Kata/Tests/</directory>
-        </testsuite>
-    </testsuites>
+<phpunit colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="true"
+         bootstrap = "vendor/autoload.php">
+<testsuites>
+    <testsuite name="PHP Skeleton Kata Test Suite">
+        <directory>./src/Kata/Tests/</directory>
+    </testsuite>
 
     <filter>
         <whitelist>
@@ -15,4 +19,6 @@
             </exclude>
         </whitelist>
     </filter>
+
+</testsuites>
 </phpunit>
