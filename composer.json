@@ -1,0 +1,25 @@
+{
+  "name": "aperezg/php-skeleton-kata",
+  "description": "PHP Skeleton Kata",
+  "license": "MIT",
+  "type": "library",
+  "keywords": ["php", "TDD", "kata"],
+  "homepage": "https://github.com/aperezg/php-skeleton-kata",
+  "require-dev" : {
+    "phpunit/phpunit": "~3.7"
+  },
+  "autoload": {
+    "psr-0": {
+      "Kata": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Adrián Pérez",
+      "email": "perezg.adrian@gmail.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  }
+}
